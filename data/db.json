@@ -1,0 +1,361 @@
+{
+  "users": [
+    {
+      "id": "user-rohit",
+      "name": "Rohit",
+      "email": "rohit@aris.ai",
+      "role": "athlete",
+      "sport": "gym",
+      "group": "Pro Group",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200",
+      "status": "CRITICAL",
+      "recoveryScore": 58,
+      "sleepDuration": "5h 30m",
+      "hydrationIndex": "Low",
+      "hrvBaseline": 54,
+      "readinessScore": 52,
+      "symmetry": 88,
+      "inflammation": "Low"
+    },
+    {
+      "id": "user-prashant",
+      "name": "Prashant",
+      "email": "prashant@aris.ai",
+      "role": "athlete",
+      "sport": "football",
+      "group": "Pro Group",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
+      "status": "OPTIMAL",
+      "recoveryScore": 94,
+      "sleepDuration": "8h 42m",
+      "hydrationIndex": "Optimal",
+      "hrvBaseline": 72,
+      "readinessScore": 94,
+      "symmetry": 96,
+      "inflammation": "None"
+    },
+    {
+      "id": "user-bharath",
+      "name": "Bharath",
+      "email": "bharath@aris.ai",
+      "role": "athlete",
+      "sport": "football",
+      "group": "Pro Group",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
+      "status": "MODERATE",
+      "recoveryScore": 71,
+      "sleepDuration": "7h 10m",
+      "hydrationIndex": "Moderate",
+      "hrvBaseline": 65,
+      "readinessScore": 71,
+      "symmetry": 91,
+      "inflammation": "Mild"
+    },
+    {
+      "id": "user-sandeep",
+      "name": "Sandeep",
+      "email": "sandeep@aris.ai",
+      "role": "athlete",
+      "sport": "football",
+      "group": "Pro Group",
+      "avatarUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&q=80&w=200",
+      "status": "CRITICAL",
+      "recoveryScore": 61,
+      "sleepDuration": "6h 05m",
+      "hydrationIndex": "Low",
+      "hrvBaseline": 58,
+      "readinessScore": 59,
+      "symmetry": 84,
+      "inflammation": "Moderate"
+    },
+    {
+      "id": "user-coach",
+      "name": "Coach Vikram",
+      "email": "coach@aris.ai",
+      "role": "coach",
+      "sport": "football",
+      "group": "Elite Staff",
+      "avatarUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200",
+      "status": "OPTIMAL",
+      "recoveryScore": 98,
+      "sleepDuration": "8h 00m",
+      "hydrationIndex": "Optimal",
+      "hrvBaseline": 75,
+      "readinessScore": 98,
+      "symmetry": 98,
+      "inflammation": "None"
+    }
+  ],
+  "passwords": {
+    "user-rohit": "password123",
+    "user-prashant": "password123",
+    "user-bharath": "password123",
+    "user-sandeep": "password123",
+    "user-coach": "password123"
+  },
+  "tokens": {
+    "token-rohit": "user-rohit",
+    "token-prashant": "user-prashant",
+    "token-coach": "user-coach"
+  },
+  "timelineEvents": [
+    {
+      "id": "t-1",
+      "userId": "user-rohit",
+      "timeRange": "06:30 - 07:30",
+      "title": "Fueling: Breakfast",
+      "focus": "Pre-load carbs",
+      "category": "fueling",
+      "isHighlighted": false
+    },
+    {
+      "id": "t-2",
+      "userId": "user-rohit",
+      "timeRange": "08:00 - 10:30",
+      "title": "High Intensity Training",
+      "focus": "Focus: Explosion",
+      "category": "training",
+      "isHighlighted": true
+    },
+    {
+      "id": "t-3",
+      "userId": "user-rohit",
+      "timeRange": "11:00 - 12:00",
+      "title": "Cryotherapy & Flush",
+      "focus": "Recovery Protocol",
+      "category": "recovery",
+      "isHighlighted": false
+    }
+  ],
+  "injuryHotspots": {
+    "user-rohit": [
+      {
+        "id": "hotspot-hamstring",
+        "bodyRegion": "right_hamstring",
+        "label": "Right Hamstring",
+        "xPercent": 57,
+        "yPercent": 58,
+        "severity": "CRITICAL",
+        "title": "CRITICAL LOAD: RIGHT HAMSTRING",
+        "description": "High eccentric load detected during morning sprints. Recommended immediate cessation of explosive movements.",
+        "symmetry": 88,
+        "inflammation": "Low"
+      },
+      {
+        "id": "hotspot-quad",
+        "bodyRegion": "left_quad",
+        "label": "Left Quadriceps",
+        "xPercent": 43,
+        "yPercent": 28,
+        "severity": "MODERATE",
+        "title": "MODERATE TENSION: LEFT QUAD",
+        "description": "Slight fatigue build-up detected during lateral decelerations. Foam rolling suggested.",
+        "symmetry": 92,
+        "inflammation": "Mild"
+      },
+      {
+        "id": "hotspot-knee",
+        "bodyRegion": "right_knee",
+        "label": "Right Knee",
+        "xPercent": 57,
+        "yPercent": 68,
+        "severity": "MODERATE",
+        "title": "LOAD WARNING: RIGHT KNEE",
+        "description": "Elevated patellar impact force during jump landings. Pre-activation exercises required.",
+        "symmetry": 90,
+        "inflammation": "Low"
+      }
+    ]
+  },
+  "recoveryTasks": [
+    {
+      "id": "task-1",
+      "userId": "user-rohit",
+      "text": "Compression therapy (Level 3) for 20 mins post-drill.",
+      "completed": true
+    },
+    {
+      "id": "task-2",
+      "userId": "user-rohit",
+      "text": "Increase electrolyte intake (Mg+ Focus) by 15%.",
+      "completed": true
+    },
+    {
+      "id": "task-3",
+      "userId": "user-rohit",
+      "text": "Soft tissue mobilization: Lateral quads & glutes.",
+      "completed": true
+    }
+  ],
+  "clinicalPartners": [
+    {
+      "id": "clinic-1",
+      "name": "Peak Performance Lab",
+      "distance": "0.8 KM",
+      "availability": "WALK-IN READY",
+      "description": "Advanced sports physiotherapy and cryo-chamber treatments specialized for pro football.",
+      "type": "Physiotherapy & Cryo"
+    },
+    {
+      "id": "clinic-2",
+      "name": "Elite Recovery Hub",
+      "distance": "2.4 KM",
+      "availability": "BY APPOINTMENT",
+      "description": "Orthopedic specialists focused on lower limb trauma and kinetic chain optimization.",
+      "type": "Orthopedics"
+    },
+    {
+      "id": "clinic-3",
+      "name": "ARIS Care Central",
+      "distance": "3.1 KM",
+      "availability": "NEXT OPENING: 4PM",
+      "description": "Official ARIS clinical partner. Direct data sync with your performance profile.",
+      "type": "Clinical Partner"
+    }
+  ],
+  "bookings": [],
+  "surveys": [
+    {
+      "id": "survey-1",
+      "userId": "user-rohit",
+      "date": "2023-10-24",
+      "sleepHours": 5.5,
+      "sleepQuality": "Poor",
+      "hydrationLevel": 40,
+      "heartRateZone": 3,
+      "muscleSoreness": "High",
+      "fatigueLevel": 2,
+      "calculatedScore": 58
+    }
+  ],
+  "highRiskAlerts": [
+    {
+      "id": "alert-1",
+      "athleteName": "Rohit",
+      "athleteId": "user-rohit",
+      "riskTitle": "Hamstring Strain Risk",
+      "description": "Fatigue trend up 42% in 48h. Load modification required.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "alert-2",
+      "athleteName": "Sandeep",
+      "athleteId": "user-sandeep",
+      "riskTitle": "Thigh Strain Risk",
+      "description": "Sleep latency +18m. HRV baseline drop detected.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "alert-3",
+      "athleteName": "Bharath",
+      "athleteId": "user-bharath",
+      "riskTitle": "Knee Injury Risk",
+      "description": "Metabolic markers indicate overreaching state.",
+      "severity": "CRITICAL"
+    }
+  ],
+  "sportProtocols": [
+    {
+      "id": "proto-1",
+      "sport": "BADMINTON",
+      "sportKey": "badminton",
+      "iconName": "Zap",
+      "exercises": [
+        {
+          "name": "Dynamic arm circles & shoulder rotations"
+        },
+        {
+          "name": "Multi-directional lunges for gait prep"
+        },
+        {
+          "name": "High-intensity shadow footwork (10 min)"
+        }
+      ]
+    },
+    {
+      "id": "proto-2",
+      "sport": "FOOTBALL",
+      "sportKey": "football",
+      "iconName": "Activity",
+      "exercises": [
+        {
+          "name": "FIFA 11+ dynamic warm-up protocol"
+        },
+        {
+          "name": "Leg swings & hip openers"
+        },
+        {
+          "name": "Accelerated short burst sprints"
+        }
+      ]
+    },
+    {
+      "id": "proto-3",
+      "sport": "CRICKET",
+      "sportKey": "cricket",
+      "iconName": "Shield",
+      "exercises": [
+        {
+          "name": "Thoracic spine rotations (Bowlers/Batsmen)"
+        },
+        {
+          "name": "Shoulder cuff activation with bands"
+        },
+        {
+          "name": "Agility ladder drills for fielding prep"
+        }
+      ]
+    },
+    {
+      "id": "proto-4",
+      "sport": "KABADDI",
+      "sportKey": "kabaddi",
+      "iconName": "Users",
+      "exercises": [
+        {
+          "name": "Lower body explosive lunges"
+        },
+        {
+          "name": "Core bracing drills"
+        },
+        {
+          "name": "Shoulder stability rotations"
+        }
+      ]
+    },
+    {
+      "id": "proto-5",
+      "sport": "HOCKEY",
+      "sportKey": "hockey",
+      "iconName": "Award",
+      "exercises": [
+        {
+          "name": "Lateral glute activation"
+        },
+        {
+          "name": "Wrist mobility drills"
+        },
+        {
+          "name": "High-intensity sprint starts"
+        }
+      ]
+    },
+    {
+      "id": "proto-6",
+      "sport": "TABLE TENNIS",
+      "sportKey": "table_tennis",
+      "iconName": "Target",
+      "exercises": [
+        {
+          "name": "Reflex-based hand-eye drills"
+        },
+        {
+          "name": "Forearm stretch protocol"
+        },
+        {
+          "name": "Lateral shuffle steps"
+        }
+      ]
+    }
+  ]
+}
