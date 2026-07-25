@@ -82,10 +82,10 @@ The server will boot up and be accessible at:
 ## 📸 Screenshots
 
 ### Athlete Dashboard & Injury Diagnostics
-![Dashboard](assets/dashboard_screenshot.png)
+![Dashboard](assets/dashboard_screenshot.jpg)
 
 ### Biometric survey & Sport Customizer
-![Profile](assets/profile_screenshot.png)
+![Profile](assets/profile_screenshot.jpg)
 
 ---
 
