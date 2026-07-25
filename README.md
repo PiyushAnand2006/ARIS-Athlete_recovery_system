@@ -85,7 +85,7 @@ The server will boot up and be accessible at:
 ![Dashboard](assets/dashboard_screenshot.jpg)
 
 ### Biometric survey & Sport Customizer
-![Profile](assets/profile_screenshot.jpg)
+![Profile](assets/profile_screenshot.png)
 
 ---
 
