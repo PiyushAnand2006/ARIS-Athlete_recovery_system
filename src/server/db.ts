@@ -12,7 +12,7 @@ import {
   HighRiskAlert,
   SportProtocol,
   SquadKPIs,
-} from '../types.js';
+} from '../../frontend/src/types.js';
 
 interface DatabaseSchema {
   users: User[];
